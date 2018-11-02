@@ -22,11 +22,6 @@ You can send a search request via a REST call & get a json response.  You may sp
 
 # Summary
 
-You can build out an app, or used one of the available plugins (Drupal, Blacklight, etc. are available).  The Ebsco service offers all the features inherent to Ebsco Discovery search (as far as I can tell).  The Sirsi service is limited to Symphony functions, and does not into the solr-based Enterprise search engine.  While the Ebsco service is a good candidate for using webservices to build a custom view, the Sirsi service is not.
+The Ebsco service offers all the features inherent to Ebsco Discovery search (as far as I can tell).  The Sirsi service is limited to Symphony functions, and does not include the excellent solr-based Enterprise search engine.  While the Ebsco service is a good candidate for using webservices to build a custom view, the Sirsi service is not.
 
 The degree of reliance on these services ranges from minimal to maximal.  You can use Ajax to add tiny webservice calls to an existing webapp.  Or you can build an entirely custom app from the ground up.  You are free to use them at whatever scope you choose.   
-
-Unexplored questions:
-Is it a viable option to abandon Sirsi and use only Ebsco?  Are there resources or search functionality that only Sirsi provides?
-What outside integrations need to be considered if designing a custom view (i.e., StackMap, ILLiad, etc.)?  
-
